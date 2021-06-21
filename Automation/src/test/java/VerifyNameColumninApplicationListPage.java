@@ -30,7 +30,7 @@ public class VerifyNameColumninApplicationListPage {
     String label=	driver.findElement(By.xpath("/html/body/div[4]/div/div[3]/div/div/div[2]/div/div[1]/div/label")).getText();
    System.out.println(label);
    String name= driver.findElement(By.xpath("/html/body/div[4]/div/div[3]/div/div/div[2]/div/div[1]/div/strong")).getText();
-   System.out.println(name);  
+  // System.out.println(name);  
 
 //   String label1=	driver.findElement(By.xpath("/html/body/div[4]/div/div[3]/div/div/div[2]/div/div[2]/div/label")).getText();
 //   System.out.println(label1);
